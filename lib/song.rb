@@ -55,4 +55,8 @@ end
     song.artist_name = (name.split(" - ")[0])
     @@all << song 
   end 
+  
+  def self.destroy
+    @@all = []
+  end 
 end 
